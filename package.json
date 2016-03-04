@@ -11,7 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "iconv": "^2.1.11",
-    "jsdom": "^8.1.0"
+    "jsdom": "^8.1.0",
+    "twilio": "^2.9.0",
+    "twilio-server": "git+https://github.com/masakura/twilio-server.git"
   },
   "devDependencies": {
     "eslint": "^2.2.0",
