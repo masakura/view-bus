@@ -5,5 +5,5 @@ const Route = require('./libs/route');
 
 const route = new Route(load);
 
-route.getRoute(10)
+route.getRoute(2)
   .then(console.log);
