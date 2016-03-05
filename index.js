@@ -26,7 +26,7 @@ server.receive(function(promise) {
   }))
     .then(server.twiml(function (result) {
       const number = parseInt(result.Digits);
-      return route.getRoute(2)
+      return route.getRoute(number)
         .then(function (route) {
           var resp = new twilio.TwimlResponse();
           resp.say(route.name, {language:'ja-JP'});
